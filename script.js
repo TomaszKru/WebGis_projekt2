@@ -28,11 +28,11 @@ require([
     const view = new SceneView({
         map: map1,
         container: "div",
-        zoom: 5,
+        zoom: 4,
         center: [75, 140]
     });
 
-    map1.addMany([fl1, fl2, gl]);
+    map1.addMany([fl2, gl]);
 
     const legend = new Legend({
         view: view
